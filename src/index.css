@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-futuristic-orange: #ff4400;
+  --color-futuristic-emerald: #047857;
+  --color-golden-yellow: #fbbf24;
+  --shadow-glow-orange: 0 0 40px rgba(255, 68, 0, 0.5);
+  --shadow-glow-emerald: 0 0 40px rgba(4, 120, 87, 0.5);
+  --shadow-gold: 0 10px 30px rgba(251, 191, 36, 0.3);
+  
+  @keyframes shimmer {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  @keyframes spin-slow {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  --animate-shimmer: shimmer 3s ease infinite;
+  --animate-spin-slow: spin-slow 20s linear infinite;
+}
+
+@layer base {
+  body {
+    @apply bg-[#FAFAFA] text-gray-900 antialiased;
+    background-image: 
+      radial-gradient(at 0% 0%, rgba(255, 68, 0, 0.08) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, rgba(251, 191, 36, 0.08) 0px, transparent 50%),
+      radial-gradient(at 50% 50%, rgba(255, 255, 255, 1) 0px, transparent 100%),
+      radial-gradient(at 0% 100%, rgba(251, 191, 36, 0.05) 0px, transparent 50%),
+      radial-gradient(at 100% 100%, rgba(255, 68, 0, 0.05) 0px, transparent 50%);
+    background-attachment: fixed;
+  }
+}
+
+.glass {
+  @apply backdrop-blur-xl bg-white/80 border border-white/40 shadow-xl;
+}
+
+.glass-gold {
+  @apply backdrop-blur-xl bg-yellow-400/10 border border-yellow-400/30 shadow-2xl;
+}
+
+.neon-line {
+  @apply h-[2px] w-full bg-linear-to-r from-transparent via-orange-500/40 to-transparent;
+}
+
+.glossy-highlight {
+  @apply absolute inset-0 bg-linear-to-tr from-white/20 to-transparent pointer-events-none;
+}
