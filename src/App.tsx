@@ -9,7 +9,7 @@ import { useState } from 'react';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-[#FAFAFA] font-sans text-gray-900 overflow-x-hidden relative">
+    <div className="min-h-[100dvh] bg-[#FAFAFA] font-sans text-gray-900 overflow-x-hidden relative">
       {/* Futuristic background glow */}
       <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">
         <div className="absolute -top-[10%] -left-[10%] w-[80%] h-[80%] bg-orange-400/20 blur-[180px] rounded-full animate-pulse"></div>
