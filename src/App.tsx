@@ -569,7 +569,7 @@ export default function App() {
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
-            className="bg-linear-to-br from-orange-600 via-red-600 to-red-800 rounded-[2.5rem] p-10 shadow-[0_30px_60px_rgba(220,38,38,0.3)] relative border-4 border-yellow-400 group"
+            className="bg-linear-to-br from-orange-600 via-red-600 to-red-800 rounded-[2.5rem] p-6 sm:p-10 shadow-[0_30px_60px_rgba(220,38,38,0.3)] relative border-4 border-yellow-400 group"
           >
             <div className="glossy-highlight opacity-30"></div>
             {/* Best Seller Badge */}
@@ -605,7 +605,7 @@ export default function App() {
 
             <div className="text-center mb-8">
               <p className="text-white/80 line-through text-lg font-black">De R$ 147</p>
-              <p className="text-white text-7xl font-black tracking-tighter my-2 drop-shadow-[0_10px_20px_rgba(0,0,0,0.5)]">R$ 19,90</p>
+              <p className="text-white text-6xl sm:text-7xl font-black tracking-tighter my-2 drop-shadow-[0_10px_20px_rgba(0,0,0,0.5)]">R$ 19,90</p>
               <p className="text-white/90 text-sm font-black uppercase tracking-[0.3em]">Pagamento único</p>
             </div>
 
@@ -764,7 +764,7 @@ export default function App() {
 
       {/* Footer Section */}
       <div className="neon-line" />
-      <footer className="bg-linear-to-b from-[#FFF5E6] to-orange-600 py-16 px-6 text-center text-white relative overflow-hidden">
+      <footer className="bg-linear-to-b from-[#FFF5E6] to-orange-600 py-16 px-6 text-center text-white relative overflow-hidden pb-safe">
         {/* Subtle background glow for footer */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-radial from-white/10 to-transparent pointer-events-none"></div>
         
