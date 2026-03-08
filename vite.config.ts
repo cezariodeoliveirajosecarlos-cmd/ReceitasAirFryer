@@ -1,6 +1,7 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import legacy from '@vitejs/plugin-legacy';
+import compression from 'vite-plugin-compression';
 import path from 'path';
 import {defineConfig, loadEnv} from 'vite';
 
@@ -12,6 +13,14 @@ export default defineConfig(({mode}) => {
       tailwindcss(),
       legacy({
         targets: ['defaults', 'not IE 11', 'iOS >= 11'],
+      }),
+      compression({
+        algorithm: 'gzip',
+        ext: '.gz',
+      }),
+      compression({
+        algorithm: 'brotliCompress',
+        ext: '.br',
       }),
     ],
     build: {

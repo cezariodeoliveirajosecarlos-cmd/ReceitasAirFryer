@@ -669,16 +669,16 @@ export default function App() {
                 className="glass rounded-2xl p-6 shadow-xl border border-orange-200/60 hover:shadow-orange-300/40 transition-all duration-300"
               >
                 <div className="flex items-center gap-4 mb-4">
-                  <img 
-                    src={testimonial.image} 
-                    alt={testimonial.name} 
-                    className="w-14 h-14 rounded-full object-cover border-2 border-orange-200 shadow-md"
-                    referrerPolicy="no-referrer"
-                    loading="lazy"
-                    decoding="async"
-                    width="56"
-                    height="56"
-                  />
+              <img 
+                src={testimonial.image} 
+                alt={testimonial.name} 
+                className="w-14 h-14 rounded-full object-cover border-2 border-orange-200 shadow-md"
+                referrerPolicy="no-referrer"
+                loading="lazy"
+                decoding="async"
+                width="56"
+                height="56"
+              />
                   <div>
                     <h4 className="text-orange-700 font-black text-lg leading-tight">{testimonial.name}</h4>
                     <p className="text-orange-950/60 text-xs font-bold">{testimonial.location}</p>
