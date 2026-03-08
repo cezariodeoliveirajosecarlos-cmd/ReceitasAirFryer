@@ -51,7 +51,7 @@ export default function App() {
           <div className="absolute inset-0 bg-orange-500/20 blur-3xl rounded-full scale-75 animate-pulse"></div>
           <div className="relative z-10 transform hover:scale-105 transition-transform duration-500">
             <img 
-              src="https://i.imgur.com/KItNr0z.jpeg" 
+              src="https://i.imgur.com/KItNr0zh.jpeg" 
               alt="Airfryer Recipes Mockup" 
               className="w-full h-auto rounded-3xl shadow-[0_30px_60px_rgba(234,88,12,0.4)] border-4 border-white"
               referrerPolicy="no-referrer"
@@ -97,7 +97,9 @@ export default function App() {
 
         {/* CTA Button */}
         <motion.a
-          href="https://pay.lowify.com.br/checkout.php?product_id=xT4TvM"
+          href="https://pay.kiwify.com.br/tgRRa63"
+          target="_blank"
+          rel="noopener noreferrer"
           whileHover={{ scale: 1.05, boxShadow: "0 20px 50px rgba(5, 150, 105, 0.4)" }}
           whileTap={{ scale: 0.95 }}
           className="w-full py-6 bg-linear-to-r from-emerald-600 to-emerald-500 hover:from-emerald-500 hover:to-emerald-400 text-white font-black text-2xl rounded-full shadow-[0_15px_30px_rgba(5, 150, 105, 0.3)] transition-all duration-300 uppercase tracking-wider mb-8 cursor-pointer relative overflow-hidden group flex items-center justify-center border-b-4 border-emerald-800"
@@ -182,7 +184,7 @@ export default function App() {
             className="mb-10 rounded-2xl overflow-hidden shadow-lg border-4 border-white"
           >
             <img 
-              src="https://static.ndmais.com.br/2023/10/393141598-681108760643575-6322218240520031095-n-1040x1300.jpg" 
+              src="https://i.imgur.com/mOjiLeq.png" 
               alt="Airfryer indispensável" 
               className="w-full h-64 object-cover"
               referrerPolicy="no-referrer"
@@ -374,12 +376,12 @@ export default function App() {
 
           <div className="grid grid-cols-2 gap-5 w-full">
             {[
-              { title: "Batata Frita Crocante", time: "15 min", image: "https://receitatodahora.com.br/wp-content/uploads/2025/04/batata-frita-sequinha-26-04.jpeg" },
-              { title: "Frango Empanado", time: "20 min", image: "https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&q=80&w=400" },
-              { title: "Pizza", time: "25 min", image: "https://marmitexdesucesso.com.br/wp-content/uploads/2024/11/Pode-esquentar-pizza-na-airfryer.jpg" },
-              { title: "Legumes Assados", time: "18 min", image: "https://www.receiteria.com.br/wp-content/uploads/receitas-de-legumes-na-airfryer-00.jpeg" },
-              { title: "Coxinha de Frango", time: "12 min", image: "https://cdn0.tudoreceitas.com/pt/posts/3/9/4/coxa_de_frango_assada_no_forno_com_batata_5493_600.webp" },
-              { title: "Torta de Maçã", time: "30 min", image: "https://docepedia.com/_next/image?url=https%3A%2F%2Fadmin.docepedia.com%2Fsite%2Fuploads%2F2021%2F12%2Ftorta-maca-p-768x768-1.jpg&w=1080&q=75" },
+              { title: "Batata Frita Crocante", time: "15 min", image: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&q=60&w=400&fm=webp" },
+              { title: "Frango Empanado", time: "20 min", image: "https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&q=60&w=400&fm=webp" },
+              { title: "Pizza", time: "25 min", image: "https://i.imgur.com/DvwdowJ.png" },
+              { title: "Legumes Assados", time: "18 min", image: "https://images.unsplash.com/photo-1592417817098-8fd3d9eb14a5?auto=format&fit=crop&q=60&w=400&fm=webp" },
+              { title: "Asas de Frango", time: "12 min", image: "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&q=60&w=400&fm=webp" },
+              { title: "Torta de Maçã", time: "30 min", image: "https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?auto=format&fit=crop&q=60&w=400&fm=webp" },
             ].map((recipe, index) => (
               <motion.div 
                 key={index}
@@ -551,7 +553,9 @@ export default function App() {
             </div>
 
             <motion.a
-              href="https://pay.lowify.com.br/checkout.php?product_id=xT4TvM"
+              href="https://pay.kiwify.com.br/tgRRa63"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="w-full py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-black text-lg rounded-full shadow-xl shadow-emerald-200 transition-colors uppercase flex items-center justify-center"
@@ -606,7 +610,9 @@ export default function App() {
             </div>
 
             <motion.a
-              href="https://pay.lowify.com.br/go.php?offer=utixsea"
+              href="https://pay.kiwify.com.br/t84loLu"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(0,0,0,0.3)" }}
               whileTap={{ scale: 0.95 }}
               className="w-full py-5 bg-yellow-400 hover:bg-yellow-300 text-orange-950 font-black text-2xl rounded-full shadow-2xl transition-all duration-300 uppercase flex items-center justify-center gap-3 border-b-4 border-yellow-600"
@@ -639,25 +645,25 @@ export default function App() {
                 name: "Juliana Mendes",
                 location: "São Paulo, SP",
                 text: "Essas receitas mudaram completamente minha rotina na cozinha! Agora faço pratos deliciosos em minutos.",
-                image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150"
+                image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=60&w=150&fm=webp"
               },
               {
                 name: "Ricardo Oliveira",
                 location: "Rio de Janeiro, RJ",
                 text: "Minha família adora as receitas! Principalmente as crianças que agora comem mais vegetais.",
-                image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150"
+                image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=60&w=150&fm=webp"
               },
               {
                 name: "Beatriz Souza",
                 location: "Belo Horizonte, MG",
                 text: "Economizei muito dinheiro parando de pedir delivery. As receitas são fáceis e saborosas!",
-                image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=150"
+                image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=60&w=150&fm=webp"
               },
               {
                 name: "Fernando Santos",
                 location: "Porto Alegre, RS",
                 text: "Como chef, posso dizer que essas receitas são profissionais. Recomendo para todos!",
-                image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=150"
+                image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=60&w=150&fm=webp"
               }
             ].map((testimonial, index) => (
               <motion.div 
@@ -771,7 +777,9 @@ export default function App() {
           </p>
 
           <motion.a
-            href="https://pay.lowify.com.br/checkout.php?product_id=xT4TvM"
+            href="https://pay.kiwify.com.br/tgRRa63"
+            target="_blank"
+            rel="noopener noreferrer"
             whileHover={{ scale: 1.05, boxShadow: "0 0 40px rgba(250, 204, 21, 0.6)" }}
             whileTap={{ scale: 0.95 }}
             className="w-full py-5 bg-yellow-500 hover:bg-yellow-600 text-orange-950 font-black text-lg rounded-full shadow-2xl transition-all duration-300 uppercase flex items-center justify-center gap-2 mb-12 relative overflow-hidden group"

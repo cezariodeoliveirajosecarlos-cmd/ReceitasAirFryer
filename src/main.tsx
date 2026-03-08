@@ -8,3 +8,12 @@ createRoot(document.getElementById('root')!).render(
     <App />
   </StrictMode>,
 );
+
+// Remove initial loader
+window.addEventListener('load', () => {
+  document.body.classList.add('loaded');
+});
+// Fallback if load event already fired
+if (document.readyState === 'complete') {
+  document.body.classList.add('loaded');
+}
